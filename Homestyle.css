@@ -1,46 +1,75 @@
-header {
+
+#flex-container {
+    display: flex;
     background-color: #dddac6;
+    justify-content: space-between;
+    align-items: center;
     height: 108px;
-    position: relative;
+    padding: 0 10px;
+    box-sizing: border-box;
+    
+}
+
+#logo-container{
+    border-style: inset ;
+    border-width: 5px;
+    border-color: #dddac6;
+    width: 100px;
+    margin-top:35px;
+    margin-bottom: 39px;    
+    justify-content:flex-start;
+    margin-left: -10px;
+    height: 97px;
+    margin: 15px;
+}
+
+.form1 button{
+
+    padding: 10px 10px;
+    border: none;
+    background-color: #dddac6;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-bottom: 2px solid transparent;
+
+}
+
+.form1 button:hover {
+    background-color: grey; /* Darker color on hover */
+}
+
+.form1 button {
+    margin-left: -2px; /* Adjust to remove gap between input and button */
 }
 
 #chateaulogo {
         width: 100px;
         height: 100px;
-        object-position: left top;      
+        margin-left: -0.5px;
+
+        
 }
+
 #location {
-        position:absolute;
+        
         font-family: Garamond, serif;
         font-size: 11.8px;
         margin-left: 1px;
         margin-top: -18px;
-        
+       
 }
 
-#logo-container {
-        position: absolute;
-        top: 50.7%;
-        transform: translateY(-50%);
-        left:2px;
-        border-style:inset;
-        border-width: 2.2px;
-        border-color: #dddac6;
-        
-    }
 
 .topnav {
-    overflow: hidden;
-    float:right;
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-    
+    margin: 10px;
+   margin-top: 80px;
 }
 
 .topnav a{
     
-    padding: 0px 10px; 
+    padding: 0px 12px; 
     color: black;
     text-decoration: none;
     font-size: 25px;
@@ -57,5 +86,436 @@ header {
     color: white;
     font-style: italic;
 }
+
+.page-intro{
+    display: flex;
+    flex-wrap: wrap; /* Allows the content to wrap on smaller screens*/
+    justify-content: center;
+    align-items: center;
+      
+}
+
+.home-image{
+
+    flex: 1 1 auto;
+    max-width: 100%;
+    padding: 0.5px;
+    box-sizing: border-box;
+    
+}
+.home-image img{
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
+}
+
+.home-welcome{
+    
+    font-family: Garamond, serif;
+    font-size: 230%;
+    font-style: italic;
+    
+}
+
+body{
+    background-color: #dddac6;
+}
+
+#stays {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Aligns sections at the start vertically */
+    padding: 30px;
+    flex-wrap: nowrap;  /* Allows wrapping on smaller screens */
+    
+}
+
+.stay-section{
+    flex: 1; /* Allows the sections to take equal space */
+    
+    box-sizing: border-box;
+}
+
+.shortstays{
+    flex: 1;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.longstays{
+    flex: 1;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.shortstays img{
+    max-width: auto;
+    height: 400px;
+    object-fit:cover;
+    margin-bottom: 20px;
+}
+ .longstays img{
+    max-width: 370px;
+    height: 400px;
+    object-fit:cover;
+    margin-bottom: 20px;
+}
+
+#stays a{
+    padding: 19px 12px; 
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+#stays a:active {
+    text-decoration: none;
+    color: grey;
+}
+
+#stays a:hover {
+    background-color: #dddac6;
+    color: white;
+    font-style: italic;
+}
+
+.shortstays p, .longstays p{
+
+    margin-top: 10px;
+    
+}
+
+.ac-heading{
+   
+    margin-left: 25px;
+}
+
+.accom-container{
+display: flex;
+margin: 10px;
+
+}
+
+.accom-container a{
+    padding: 1px 1px; 
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.accom-container a:active {
+    text-decoration: none;
+    color: grey;
+}
+
+.accom-container a:hover {
+    background-color: #dddac6;
+    color: white;
+    font-style: italic;
+}
+
+.accom-container p{
+    margin-top: -45px;
+}
+
+.ac1, .ac2, .ac3{
+
+   margin-top: -50px; 
+   padding: 20px;
+}
+
+.guest{
+    margin: 10px;
+}
+
+.form1{
+    display: flex;
+    justify-content:flex-start;
+    margin: 10px;
+}
+
+.attractions-heading{
+    margin: 10px;
+}
+
+.attractions-container{
+
+    display: flex;
+    margin: 10px;
+    margin-top: -20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+
+
+.attractions-container a{
+    padding: 1px 1px; 
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.attractions-container a:active {
+    text-decoration: none;
+    color: grey;
+}
+
+.attractions-container a:hover {
+    background-color: #dddac6;
+    color: white;
+    font-style: italic;
+}
+
+.westhills img, .bojo img, .kart img{
+    width: auto;
+    height: 200px;
+    object-fit:cover;
+    }
+
+    .attractions-container >* {
+        flex: 1 1 30%;
+    }
+    
+.findus{
+    margin: 10px;
+}    
+
+.help{
+    margin: 10px;
+}
+
+.map-container{
+    display:flex;
+    margin: 10px;
+}
+
+.map-container a{
+    padding: 1px 1px; 
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.map-container a:active {
+    text-decoration: none;
+    color: grey;
+}
+
+.map-container a:hover {
+    background-color: #dddac6;
+    color: white;
+    font-style: italic;
+}
+
+.map iframe{
+
+    max-width: 100%;
+    height: 400px;
+    object-fit:cover;
+     
+}
+
+.price-container{
+
+    display: flex;
+    margin: 10px;
+    
+}
+
+.item1 img{
+    max-width: 100%;
+    
+    width: 2000px;
+    height: 600px;
+    object-fit: cover;
+}
+.item2 a{
+    padding: 1px 1px; 
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    font-style: oblique;
+}
+
+.item2 a:active {
+    text-decoration: none;
+    color: grey;
+}
+
+.item2 a:hover {
+    background-color: #dddac6;
+    color: white;
+    font-style: italic;
+}
+
+footer {
+background-color: #dddac6;
+border-style:inset outset ;
+border-color: #dddac6;
+border-width: 4px;
+}
+
+footer img{
+    padding: 15px;
+    width: 50px;
+}
+
+.links-container{
+display: flex;
+
+}
+
+.links-container a{
+  
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+   
+}
+
+.links-container a:active {
+    text-decoration: none;
+    color: grey;
+}
+
+.links-container a:hover {
+    background-color: #dddac6;
+    color: white;
+    font-style: italic;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.signup label{
+font-family: Arial, sans-serif;
+font-size: 20px;
+padding: 3px;
+
+}
+
+.email{
+
+    margin-top: 12px;
+
+}
+
+form {
+    max-width: 400px;
+    
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the email input field */
+.email input[type="email"] {
+    width: calc(100% - 120px); /* Adjust width to fit alongside the button */
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.email input[type="email"]:focus {
+    border-bottom: 2px solid grey; /* Highlight color when focused */
+    outline: none;
+}
+
+/* Styling the button */
+.email button {
+    padding: 10px 10px;
+    border: none;
+    background-color: #dddac6;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-bottom: 2px solid transparent; /* Make button align with input border */
+}
+
+.email button:hover {
+    background-color: grey; /* Darker color on hover */
+}
+
+/* Aligning the input field and button */
+.email {
+    display: flex;
+    align-items: left;
+}
+
+.email button {
+    margin-left: -2px; /* Adjust to remove gap between input and button */
+}
+
+/* Adjusting spacing and layout on smaller screens */
+@media (max-width: 600px) {
+    form {
+        padding: 0 15px;
+    }
+
+    .email input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .email button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+.end-kaley{
+    font-size: 20px;
+    font-style:oblique; 
+    
+}
+
+
+.footer-nav a{
+    color: rgb(1, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+   padding: 25px;
+}
+
+.footer-nav a:active {
+    text-decoration: none;
+    color: grey;
+}
+
+.footer-nav a:hover {
+    background-color: #dddac6;
+    color: white;
+    font-style: italic;
+}
+
+.nav-container{
+    padding: 10px;
+    display: flex;
+}
+
+.footer-flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/*
+.accom-container{
+    display: flex;
+}
+*/
+
+
+
+/* 
+1. have to finish footer - check the flex boxes and fix those
+2. have to finish first button on leave a review
+
+
+*/
 
 

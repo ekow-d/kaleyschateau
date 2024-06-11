@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kaleyschateau</title>
-    <link rel="stylesheet" href="Homestyle.css">
+    <link rel="stylesheet" href="Homestyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
-
+    <header id="flex-container">
       <div id="logo-container">
-      <img id="chateaulogo" src="/images/Chateau.png" alt="KaleysChateau-logo">
-      <h2 id="location">Accra-Weija, Ghana</h2>
+        <img
+          id="chateaulogo"
+          src="/images/Chateau.png"
+          alt="KaleysChateau-logo"
+        />
+        <h2 id="location">Accra-Weija, Ghana</h2>
       </div>
 
       <nav class="topnav">
@@ -22,115 +31,112 @@
         <a href="https://Google.com" target="_blank">Address</a>
         <!--Put this in the top right of the header-->
       </nav>
-
     </header>
 
     <main>
-      <article>
+      <article class="page-intro">
         <section>
-          <div>
+          <div class="home-image">
             <img src="/images/paris.JPG" alt="Living Room" />
           </div>
         </section>
         <section>
-          <span>
+          <span class="home-welcome">
             <h1>Welcome to Kaleys Chateau - more than just a stay</h1>
           </span>
         </section>
       </article>
 
       <article>
-        <section>
-          <div>
-            <a href="/shortstays"
-              ><h2>Enjoy a Short Stay with Kaleys Chateau</h2></a
-            >
-            <img
-              src="/images/livingspace.JPG"
-              alt="short stay residence"
-            />
-            <p>
-              Unlock the freedom to embark on spontaneous getaways year-round
-              with our quick lodgings booking service. Experience the
-              convenience of seamless reservations through our trusted
-              partnership with Airbnb, offering flexible and accessible bookings
-              tailored to your schedule.
-            </p>
-            <a href="/readshortstays">Read more about our short stays</a>
-          </div>
-        </section>
+        <div id="stays">
+          <section class="stay-section">
+            <div class="shortstays">
+              <a href="/shortstays"
+                ><h2>Enjoy a Short Stay with Kaleys Chateau</h2></a
+              >
+              <img src="/images/livingspace.JPG" alt="short stay residence" />
+              <p>
+                Unlock the freedom to embark on spontaneous getaways year-round
+                with our quick lodgings booking service. Experience the
+                convenience of seamless reservations through our trusted
+                partnership with Airbnb, offering flexible and accessible
+                bookings tailored to your schedule.
+              </p>
+              <a href="/readshortstays">Read more about our short stays</a>
+            </div>
+          </section>
 
-        <section>
-          <div>
-            <a href="/longstays"
-              ><h2>Explore long stays with Kaleys Chateau</h2></a
-            >
-            <img
-              src="/images/detty2.jpg"
-              alt="long stay residence"
-            />
-            <p>
-              Discover the comfort and stability to find a new home with us,
-              where you can rent a place for a minimum of 2 years, with the
-              possibility of extension upon mutual agreement. Our commitment
-              extends to providing options for long-term stays, ensuring you
-              have the opportunity to settle into your ideal living space .
-            </p>
-            <a href="/readlongstays">Read more about our long stays</a>
-          </div>
-        </section>
+          <section class="stay-section">
+            <div class="longstays">
+              <a href="/longstays"
+                ><h2>Explore Long stays with Kaleys Chateau</h2></a
+              >
+              <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/06/a0/56/junior-suite-king-bedroom.jpg?w=700&h=-1&s=1"
+                alt="long stay residence"
+              />
+              <p>
+                Discover the comfort and stability to find a new home with us,
+                where you can rent a place for a minimum of 2 years, with the
+                possibility of extension upon mutual agreement. Our commitment
+                extends to providing options for long-term stays, ensuring you
+                have the opportunity to settle into your ideal living space .
+              </p>
+              <a href="/readlongstays">Read more about our long stays</a>
+            </div>
+          </section>
+        </div>
       </article>
 
       <article>
-        <section>
+        <div class="ac-heading">
           <h2>Accomodations</h2>
-          <section>
-            <div>
-              <a href="#"><h3>1 Bedroom</h3></a>
-              <p>
-                Introducing our cozy 1 bedroom homes, perfect for those seeking
-                a tranquil retreat. Nestled in serene surroundings, these
-                intimate spaces offer a haven of comfort and simplicity. Ideal
-                for individuals or couples, each one-room abode is thoughtfully
-                designed to maximize space efficiency without compromising on
-                style. Embrace the serenity of solitude in your own private
-                sanctuary
-              </p>
-            </div>
-          </section>
-          <section>
-            <div>
-              <a href="#"><h3>2 Bedroom</h3></a>
-              <p>
-                Discover the harmony of our 2 bedroom homes, where modern
-                elegance meets functional design. Whether you're sharing with a
-                loved one or seeking extra space for yourself, these dual-room
-                dwellings offer versatility and comfort. Enjoy the luxury of a
-                separate bedroom while still having ample room for living,
-                working, and entertaining. Experience the perfect blend of
-                intimacy and independence in our stylish two-room sanctuaries.
-              </p>
-            </div>
-          </section>
-          <section>
-            <div>
-              <a href="#"><h3>3 Bedroom</h3></a>
-              <p>
-                Welcome to our spacious 3 bedroom homes, where family and
-                friends gather to create lasting memories. With ample space for
-                everyone to spread out and unwind, these multi-room retreats
-                offer the ultimate in comfort and convenience. Whether you're
-                hosting a gathering or simply enjoying quality time together,
-                our three-room residences provide the perfect backdrop for every
-                occasion. Experience the warmth of togetherness in our inviting
-                and expansive three-bedroom havens.
-              </p>
-            </div>
-          </section>
-        </section>
+        </div>
+
+        <div class="accom-container">
+          <div class="ac1">
+            <a href="#"><h3>1 Bedroom</h3></a>
+            <p>
+              Introducing our cozy 1 bedroom homes, perfect for those seeking a
+              tranquil retreat. Nestled in serene surroundings, these intimate
+              spaces offer a haven of comfort and simplicity. Ideal for
+              individuals or couples, each one-room abode is thoughtfully
+              designed to maximize space efficiency without compromising on
+              style. Embrace the serenity of solitude in your own private
+              sanctuary
+            </p>
+          </div>
+
+          <div class="ac2">
+            <a href="#"><h3>2 Bedroom</h3></a>
+            <p>
+              Discover the harmony of our 2 bedroom homes, where modern elegance
+              meets functional design. Whether you're sharing with a loved one
+              or seeking extra space for yourself, these dual-room dwellings
+              offer versatility and comfort. Enjoy the luxury of a separate
+              bedroom while still having ample room for living, working, and
+              entertaining. Experience the perfect blend of intimacy and
+              independence in our stylish two-room sanctuaries.
+            </p>
+          </div>
+
+          <div class="ac3">
+            <a href="#"><h3>3 Bedroom</h3></a>
+            <p>
+              Welcome to our spacious 3 bedroom homes, where family and friends
+              gather to create lasting memories. With ample space for everyone
+              to spread out and unwind, these multi-room retreats offer the
+              ultimate in comfort and convenience. Whether you're hosting a
+              gathering or simply enjoying quality time together, our three-room
+              residences provide the perfect backdrop for every occasion.
+              Experience the warmth of togetherness in our inviting and
+              expansive three-bedroom havens.
+            </p>
+          </div>
+        </div>
 
         <section>
-          <div>
+          <div class="guest">
             <h2>Guest Reviews</h2>
             <!-- box to write review and three customer reviews -->
             <section>
@@ -178,251 +184,298 @@
                 </p>
               </div>
             </section>
-            <div>
+
+            <div class="form1">
               <form>
-              <h4>Leave a Review:</h4>
-              <textarea
-                rows="5"
-                cols="50"
-                placeholder="Share your review here"
-              ></textarea>
-              <button type="button">Submit</button>
+                <h4>Leave a Review:</h4>
+                <textarea
+                  rows="5"
+                  cols="50"
+                  placeholder="Share your review here"
+                ></textarea>
+                <button type="button">&#9654;</button>
               </form>
             </div>
           </div>
         </section>
 
-        <section> <!-- Attractions in Weija SECTION-->
-          <div>
-            <h2>Attractions in Weija</h2>
-            <section> <!-- West Hills Mall-->
-              <div>
-                <a href="https://www.westhillsmallgh.com/"
-                  ><h3>West Hills Mall</h3></a
-                >
-                <a href="https://www.westhillsmallgh.com/">
-                  <img
-                    src="/images/detty1.jpg"
-                    alt="west hills mall"
-                  />
-                </a>
-                <p>
-                 <blockquote>
-                  West Hills Mall, the largest in West Africa,just moments away
-                  from our properties. Its prime location boasts easy access via
-                  well-connected roads, making shopping and leisure activities
-                  convenient for locals. This proximity enhances community life,
-                  fostering economic growth and providing a vibrant hub for
-                  residents to shop, dine, and socialize
-                </blockquote>  
-                </p>
-              </div>
-            </section>
-            <section> <!-- Bojo Beach-->
-              <div>
-                <a href="https://bojobeachresort.com/"
-                  ><h3>Bojo Beach Resort</h3></a
-                >
-                <a href="https://bojobeachresort.com/">
-                  <img
-                    src="/images/detty1.jpg"
-                    alt="bojo beach resort"
-                  />
-                </a>
-                <p>
-                 <blockquote>
-                  Nestled just a short drive away, the laidback Bojo Beach Resort offers a convenient 
-                  coastal escape close to our housing community. This gorgeous stretch of golden sand fringed by
-                  swaying palm trees hosts an array of lively beach resorts and bars. Spend your days indulging 
-                  in water sports like jet-skiing and banana boat rides, or simply soak up the sun while sipping 
-                  refreshing coconut cocktails. As the sun sets, the night's scene comes alive with beachside bonfires,
-                  drumming circles, and a vibrant energy that keeps everyone dancing into the wee hours.
-                </blockquote>  
-                </p>
-              </div>
-            </section>
-            <section> <!-- Babibanny Go-Karting -->
-              <div>
-                <a href="https://Babibanny.com/"
-                  ><h3>Babibanny Go-Karting</h3></a
-                >
-                <a href="https://Babibanny.com/">
-                  <img
-                    src="/images/detty1.jpg"
-                    alt="Babibanny Go-Karting"
-                  />
-                </a>
-                <p>
-                 <blockquote>
-                  Get ready for an adrenaline-fueled adventure at Babibanny's Go-Karting, thrilling go-kart course
-                  conveniently located just around the corner! This dynamic racing circuit offers
-                  the perfect family-friendly experience to get everyone's heart racing. 
-                  Kids will squeal with delight as they zip around the twists and turns behind the wheel of their very own speedy go-kart.
-                  With multiple skill levels to choose from, even young racers can join in on the fun. Cheer each other on from the sidelines
-                  and embrace the competitive spirit as you battle for the fastest lap times. After catching your breath, refuel at the snack 
-                   bar before heading back onto the track. For an exhilarating day of high-octane excitement awaits!
-                </blockquote>  
-                </p>
-              </div>
-            </section>
+        <section>
+          <!-- Attractions in Weija SECTION-->
+          <div class="attractions-heading">
+            <h2>Attractions In & Around Us</h2>
+          </div>
+
+          <div class="attractions-container">
+            <!-- West Hills Mall-->
+            <div class="westhills">
+              <a href="https://www.westhillsmallgh.com/"
+                ><h3>West Hills Mall</h3></a
+              >
+              <a href="https://www.westhillsmallgh.com/">
+                <img
+                  src="https://citinewsroom.com/wp-content/uploads/2024/02/mel4.jpg"
+                  alt="west hills mall"
+                />
+              </a>
+              <p>
+                West Hills Mall, the largest in West Africa,just moments away
+                from our properties. Its prime location boasts easy access via
+                well-connected roads, making shopping and leisure activities
+                convenient for locals. This proximity enhances community life,
+                fostering economic growth and providing a vibrant hub for
+                residents to shop, dine, and socialize
+              </p>
+            </div>
+
+            <!-- Bojo Beach-->
+            <div class="bojo">
+              <a href="https://bojobeachresort.com/"
+                ><h3>Bojo Beach Resort</h3></a
+              >
+              <a href="https://bojobeachresort.com/">
+                <img
+                  src="https://www.hotelbeachside.com/top-10-most-beautiful-beaches-in-ghana/images/bojobeach1.jpg"
+                  alt="bojo beach resort"
+                />
+              </a>
+              <p>
+                Nestled just a short drive away, the laidback Bojo Beach Resort
+                offers a convenient coastal escape close to our housing
+                community. This gorgeous stretch of golden sand fringed by
+                swaying palm trees hosts an array of lively beach resorts and
+                bars. Spend your days indulging in water sports like jet-skiing
+                and banana boat rides, or simply soak up the sun while sipping
+                refreshing coconut cocktails. As the sun sets, the night's scene
+                comes alive with beachside bonfires, drumming circles, and a
+                vibrant energy that keeps everyone dancing into the wee hours.
+              </p>
+            </div>
+
+            <!-- Babibanny Go-Karting -->
+            <div class="kart">
+              <a href="https://Babibanny.com/"><h3>Babibanny Go-Karting</h3></a>
+              <a href="https://Babibanny.com/">
+                <img
+                  src="https://mediaim.expedia.com/localexpert/1068865/7a370e86-51a4-43c4-81b0-0a47a3d13c8e.jpg?impolicy=resizecrop&rw=1005&rh=565"
+                  alt="Babibanny Go-Karting"
+                />
+              </a>
+              <p>
+                Get ready for an adrenaline-fueled adventure at Babibanny's
+                Go-Karting, thrilling go-kart course conveniently located just
+                around the corner! This dynamic racing circuit offers the
+                perfect family-friendly experience to get everyone's heart
+                racing. Kids will squeal with delight as they zip around the
+                twists and turns behind the wheel of their very own speedy
+                go-kart. With multiple skill levels to choose from, even young
+                racers can join in on the fun. Cheer each other on from the
+                sidelines and embrace the competitive spirit as you battle for
+                the fastest lap times. After catching your breath, refuel at the
+                snack bar before heading back onto the track. For an
+                exhilarating day of high-octane excitement awaits!
+              </p>
+            </div>
           </div>
         </section>
 
-        <section> <!-- Maps -->
-          <div>
-            <h2> Find us</h2>
-             <h2>Need help?</h2> <a href="/contactpage"><h2>Contact Us : +233 26514200</h2></a>
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15884.010113736853!2d-0.3437775562675404!3d5.566640110621026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfa2d41ee7fdf3%3A0xba8b753152464812!2sWeija%2C%20Ghana!5e0!3m2!1sen!2sdk!4v1714489233940!5m2!1sen!2sdk" width="1100" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section>
+          <!-- Maps -->
+          <div class="findus">
+            <h2>Find us</h2>
+          </div>
+          <div class="help">
+            <h2>Need help?</h2>
+          </div>
+          <div class="map-container">
+            <div class="map">
+              <a href="/contactpage"><h2>Contact Us : +233 26514200</h2></a>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15884.010113736853!2d-0.3437775562675404!3d5.566640110621026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfa2d41ee7fdf3%3A0xba8b753152464812!2sWeija%2C%20Ghana!5e0!3m2!1sen!2sdk!4v1714489233940!5m2!1sen!2sdk"
+                width="1475"
+                height="400"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </section>
 
-        <section> <!-- Price Guarantee Divided into two with kaleys guarantee on one side and the links on another-->
-          <div>
-            <section>
-              <div>
-                <img src="/images/detty1.jpg" alt="KaleysChateau Price Guarantee" width="400" height="400">
-              </div>
-            </section>
+        <section>
+          <div class="price-container">
+            <!-- Price Guarantee Divided into two with kaleys guarantee on one side and the links on another-->
 
-            <section>
-              <div>
-                <h2>Price Guarantee</h2>
-                <p> When you book you stay at Ibsens Hotel directly on our website, you get the best rates.
-                   If you happen to find a better online rate elsewhere, we’ll match it and even give an upgrade. 
-                   Please contact us before you make a purchase. <a href="/readmore">Read more</a>
-                </p>
-                <ol>
-                  <div> 
-                  <li> You find a better rate</li>
+            <div class="item1">
+              <img
+                src="/images/price.png"
+                alt="KaleysChateau Price Guarantee"
+                width="400"
+                height="400"
+              />
+            </div>
+
+            <div class="item2">
+              <h2>Price Guarantee</h2>
+              <p>
+                When you book you stay at Kaleys Chateau directly on our
+                website, you get the best rates. If you happen to find a better
+                online rate elsewhere, we’ll match it and even give an upgrade.
+                Please contact us before you make a purchase.
+                <a href="/readmore">Read more...</a>
+              </p>
+              <ol>
+                <div>
+                  <li>You find a better rate</li>
                   <p>
-                  Your comparison must be of two identical stays, which implies that all services
-                   (room type, arrival date, length of stay, number of people, cancelation, and any restrictions) are the same. 
-                  The price must be the final price, including VAT, taxes, and fees, which are often added immediately before payment.
-                   The price comparison must be done simultaneously and at the time of booking. 
-                </p>
+                    Your comparison must be of two identical stays, which
+                    implies that all services (room type, arrival date, length
+                    of stay, number of people, cancelation, and any
+                    restrictions) are the same. The price must be the final
+                    price, including VAT, taxes, and fees, which are often added
+                    immediately before payment. The price comparison must be
+                    done simultaneously and at the time of booking.
+                  </p>
                 </div>
-                <div> 
-                  <li> You submit documentation</li>
+                <div>
+                  <li>You submit documentation</li>
                   <p>
-                    Send a screen print from our website as well as the external website showing the following information: link to website, 
-                    name of the website, date of search, what exactly is included, arrival day, departure day, accomodation type, number of people and any restrictions,
-                     such as inability to change and / or cancel. Please send the documentation to book@kaleyschateau.gh.
-                </p>
+                    Send a screen print from our website as well as the external
+                    website showing the following information: link to website,
+                    name of the website, date of search, what exactly is
+                    included, arrival day, departure day, accomodation type,
+                    number of people and any restrictions, such as inability to
+                    change and / or cancel. Please send the documentation to
+                    book@kaleyschateau.gh.
+                  </p>
                 </div>
-                <div> 
-                  <li> We review the comparison</li>
+                <div>
+                  <li>We review the comparison</li>
                   <p>
-                    Once we have received your inquiry, we will review the details. 
-                    You will be informed by us as soon as possible. If you have further questions, 
-                    our booking team are available Monday – Thursday from 8am – 5pm and Friday from 8am – 4pm.
-                </p>
+                    Once we have received your inquiry, we will review the
+                    details. You will be informed by us as soon as possible. If
+                    you have further questions, our booking team are available
+                    Monday – Thursday from 8am – 5pm and Friday from 8am – 4pm.
+                  </p>
                 </div>
-                <div> 
-                  <li> We match the price</li>
+                <div>
+                  <li>We match the price</li>
                   <p>
-                  We will make your reservation for the same price and grant you an 
-                  upgrade to the next housing category as a special thank you.
-                </p>
+                    We will make your reservation for the same price and grant
+                    you an upgrade to the next housing category as a special
+                    thank you.
+                  </p>
                 </div>
-                </ol>
-              </div>
-            </section>
+              </ol>
+            </div>
           </div>
         </section>
-
       </article>
     </main>
 
     <footer>
-      <div>
-      <section>
-        <div>
-          <img src="/images/detty1.jpg" alt="fb">
-          <img src="/images/detty1.jpg" alt="ig">
-          <img src="/images/detty1.jpg" alt="yT">
-          <img src="/images/detty1.jpg" alt="in">
-        </div>
-      </section>
+      <div class="footer-flex">
+        <div class="set1">
+          <div class="signup">
+            <label> sign up for offers, news and travel inspiration </label>
+          </div>
 
-      <section>
-        <div>
-          <nav>
-          <ul>
-            <a href="/aboutus"> <li>About Us</li> </a>
-          </ul>
-          <ul>
-            <a href="/career"> <li>Careers</li> </a>
-          </ul>
-          <ul>
-            <a href="/sustainability"> <li>Sustainability</li> </a>
-          </ul>
-          <ul>
-            <a href="/development"> <li>Development</li> </a>
-          </ul>
-          <ul>
-            <a href="/Residences"> <li>Residences</li> </a>
-          </ul>
-          <ul>
-          <a href="/contacttus"> <li>Contact Us</li> </a>
-        </ul>
-        <ul>
-          <a href="/pressroom"> <li>Press Room</li> </a>
-        </ul>
-        <ul>
-          <a href="/bestrateg"> <li>Best Rate Guarantee</li> </a>
-        </ul>
-        <ul>
-          <a href="/shopkaleyschateau"> <li>Shop Kaleys Chateau</li> </a>
-        </ul>
-        <ul>
-          <a href="/downloadAPP"> <li>Download our App</li> </a>
-        </ul>
-        
-        </nav>
-        </div>
-      </section>
+          <form>
+            <div class="email">
+              <input type="email" value="email@example.com" />
+              <button type="button">&#9654;</button>
+            </div>
+          </form>
 
-      <section>
-      <div>
-        <label>
-          sign up for offers, news and travel inspiration
-        </label>
-      </div>
-      </section>
-
-      <section>
-        <form>
-        <div>
-          <input type="email" value="email@example.com">
-          <button type="button"> changeButton</button>
-        </div>
-      </form>
-      </section>
-
-      <section>
-        <nav>
           <div>
-          <a href="/legal"> Legal </a>
-          <a href="/legal"> Privacy Policy </a>
-          <a href="/legal"> Imprint </a>
-          <a href="/legal"> Sitemap </a>
-          <!-- put this at the bottom of footer -->
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1362/1362857.png"
+              alt="ig"
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/256/20/20673.png"
+              alt="fb"
+            />
+            <img
+              src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.png"
+              alt="x"
+            />
+            <img
+              src="https://www.iconpacks.net/icons/1/free-youtube-icon-105-thumb.png"
+              alt="yT"
+            />
+          </div>
         </div>
-        </nav>
-      </section>
 
-      <section>
-        <div>
-        <label> &copy; 2024 KaleysChateau </label>
+        <div class="set2">
+          <div class="links-container">
+            <div class="links1">
+              <nav>
+                <ul>
+                  <a href="/aboutus"> <li>About Us</li> </a>
+                </ul>
+                <ul>
+                  <a href="/career"> <li>Careers</li> </a>
+                </ul>
+                <ul>
+                  <a href="/sustainability"> <li>Sustainability</li> </a>
+                </ul>
+                <ul>
+                  <a href="/development"> <li>Development</li> </a>
+                </ul>
+                <ul>
+                  <a href="/Residences"> <li>Residences</li> </a>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="links2">
+              <nav>
+                <ul>
+                  <a href="/contacttus"> <li>Contact Us</li> </a>
+                </ul>
+                <ul>
+                  <a href="/pressroom"> <li>Press Room</li> </a>
+                </ul>
+                <ul>
+                  <a href="/bestrateg"> <li>Best Rate Guarantee</li> </a>
+                </ul>
+                <ul>
+                  <a href="/shopkaleyschateau">
+                    <li>Shop Kaleys Chateau</li>
+                  </a>
+                </ul>
+                <ul>
+                  <a href="/downloadAPP"> <li>Download our App</li> </a>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+      <div class="nav-container">
+        <nav>
+          <div class="footer-nav">
+            <a href="/legal"> Legal </a>
+
+            <a href="/legal"> Privacy Policy </a>
+            <a href="/legal"> Imprint </a>
+            <a href="/legal"> Sitemap </a>
+            <!-- put this at the bottom of footer -->
+          </div>
+        </nav>
+        <section>
+          <div class="end-kaley">
+            <label> &copy; 2024 KaleysChateau </label>
+          </div>
+        </section>
+      </div>
 
       <!-- footer based on Kempinski website -->
-
-    </div>
     </footer>
   </body>
 </html>
 
 <!-- Footer = zleep hotel , on top of the footer a google map of place location, on top of that attractions near weija -->
 <!-- only the footer is left-->
+<!-- When kaleys chateau image it clicked it should bring you back to this page -->
